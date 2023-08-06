@@ -1,7 +1,9 @@
+h1,h3,p,li{
+    font-family:sans-serif;
+}
+
 h1{
-    color:blue;
     font-size: 26px;
-    font-family: sans-serif;
     text-transform: uppercase;
     font-style: italic;
 }
@@ -14,11 +16,28 @@ text-align: center;
 
 p{
     font-size: 22px;
-    font-family: sans-serif;
     line-height: 1.5;
 }
 
 li{
-    font-family: sans-serif;
+    font-size: 20px;
+}
+/* header p{
+    font-style: italic;
+} */
+
+.header-para{
+    font-style: italic;
+}
+
+#post-disclaimer{
+    font-size: 16px;
+}
+#img-bullet-points{
+    list-style: none;
+}
+
+.img-bottom-heading{
+    font-weight:bold;
     font-size: 20px;
 }
