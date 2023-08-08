@@ -2,6 +2,10 @@ h1,h3,p,li{
     font-family:sans-serif;
 }
 
+h1,h3{
+    color: rgb(8, 8, 102);
+
+}
 h1{
     font-size: 26px;
     text-transform: uppercase;
@@ -41,3 +45,51 @@ li{
     font-weight:bold;
     font-size: 20px;
 }
+.main-header{
+    background-color: rgb(222, 228, 225);
+}
+
+article{
+    background-color: rgb(222, 228, 225);
+}
+
+aside{
+    background-color: rgb(222, 228, 225);
+    border-top: 5px solid rgb(39, 39, 243);
+    border-bottom: 5px solid rgb(39, 39, 243);
+
+}
+article p:last-child{
+    color: red;
+}
+a:link{
+    color:rgb(59, 59, 167);
+    text-decoration:none;
+}
+/* a:visited{
+    color: grey;
+} */
+
+a:hover{
+    text-decoration: underline black dotted;
+    color: orange;
+}
+a:active{
+    color:brown;
+}
+
+
+/* resolving selector conflicts */
+/* #copyright{
+    color:green;
+}
+
+.copy-right{
+    color:purple;
+}
+.text{
+    color:red
+}
+footer p{
+    color:yellow;
+} */
