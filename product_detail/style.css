@@ -1,0 +1,47 @@
+body{
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.product-detail{
+    border: black solid 4px;
+}
+
+.product-deatil-heading{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 25px;
+    background-color: rgb(233, 229, 229);
+}
+
+.free-shipping{
+    color: rgb(146, 143, 143);
+}
+
+.more-info-link{
+    color: black;
+}
+
+.more-info-link:hover{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+li{
+    list-style: square;
+}
+
+
+button{
+    color: white;
+    background-color: black;
+}
+
+
+
+button:hover{
+    color: black;
+    background-color: white;
+}
